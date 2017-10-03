@@ -81,7 +81,7 @@ main {
 	font-family: 'Playfair Display SC', serif;
 }
 
-#linkKnapp{
+.linkKnapp{
 	background-color: lightgrey;
 	color: black;
 	border: 3px inset orange;
@@ -93,7 +93,7 @@ main {
 /* Pseudoklasser */
 
 a:visited{
-	color: orange;
+	color: black;
 }
 
 a:link{
