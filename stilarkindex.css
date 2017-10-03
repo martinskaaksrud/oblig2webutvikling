@@ -1,0 +1,128 @@
+body {
+	width: 100%; max-width: 1400px;
+	display: grid;
+	grid-column-gap: 10px;
+	grid-template-areas:"header header header"
+						" introbilde introbilde  aside"
+						"maincontent maincontent aside"
+						"footer footer footer ";
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 120px auto auto 100px;
+	
+}
+
+header { 
+	grid-area: header;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 2em;
+	letter-spacing: 10px;
+	
+	
+}
+
+header,
+footer {
+	background: grey;
+	color: orange;
+	border-bottom: 2px solid orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid orange;
+	 border-radius: 4em;
+	 
+
+	 
+	
+}
+
+#bilde { 
+	grid-area: introbilde;
+	
+	
+	
+}
+
+img{
+	
+	 border-radius: 5em;
+	 
+}
+
+aside {
+	grid-area: aside ;
+	background-color: lightgrey;
+    width: auto;
+    border: 25px inset orange;
+	box-shadow: 5px 10px 2.5px 5px gray;
+    padding: 25px;
+    margin: 25px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+main {
+	grid-area: maincontent;
+	display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3em;
+	
+}
+
+.box{
+	background-color: lightgrey;
+	border: 5px inset orange;
+	box-shadow: 4px 5px 1.25px 2.5px gray;
+	padding: 5px;
+	margin: 10px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.overskrift {
+	font-family: 'Playfair Display SC', serif;
+}
+
+#linkKnapp{
+	background-color: lightgrey;
+	color: black;
+	border: 3px inset orange;
+	padding: 1px;
+	text-decoration: none;
+	
+	
+}
+/* Pseudoklasser */
+
+a:visited{
+	color: orange;
+}
+
+a:link{
+	color: black;
+}
+
+a:active{
+	color: blue;
+}
+
+
+a:hover{
+	box-shadow: 4px 5px 1.25px 2.5px gray;
+}
+
+
+
+
+
+
+footer{
+	grid-area: footer;
+	font-family: 'Playfair Display SC', serif;
+}
+
+#knappFoot{
+	background-color: grey;
+	color: orange;
+	border: 3px inset orange;
+	padding: 1px;
+	text-decoration: none;
+}

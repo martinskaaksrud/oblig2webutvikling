@@ -1,0 +1,48 @@
+header,
+footer { 
+	background: grey;
+	color: orange;
+	border-bottom: 2px solid orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid orange;
+	 border-radius: 4em;
+}
+
+article{
+	margin: auto;
+	width: 800px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+}
+
+#overskrift{
+	font-family: 'Playfair Display SC', serif;
+	font-size: 2em;
+	letter-spacing: 10px;
+}
+
+#overskrift2{
+	font-family: 'Playfair Display SC', serif;
+}
+
+table, th, td {
+	border:1px solid black;
+	margin: 5px;
+	padding: 4px;
+	
+}
+
+tr:nth-child(even){
+	background-color: orange;
+}
+
+#knappFoot{
+	background-color: grey;
+	color: orange;
+	border: 3px inset orange;
+	padding: 1px;
+	text-decoration: none;
+}
+
